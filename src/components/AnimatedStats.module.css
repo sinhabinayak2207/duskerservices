@@ -1,0 +1,82 @@
+/* AnimatedStats.module.css - Animated, interactive stats for Dusker homepage */
+.statsSection {
+  padding: 5rem 0 3rem 0;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.sectionTitle {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 3.2rem;
+  background: linear-gradient(90deg, #7e9fff 0%, #fbc2eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.statCard {
+  background: linear-gradient(120deg, #f7f7fa 60%, #eaf0ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(126,159,255,0.07);
+  padding: 2.2rem 1.5rem 2.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transition: transform 0.24s cubic-bezier(.77,0,.18,1), box-shadow 0.18s, background 0.18s;
+  overflow: visible;
+  border: 2px solid transparent;
+}
+.statCard:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(126,159,255,0.13), 0 2px 8px rgba(0,0,0,0.04);
+  background: linear-gradient(120deg, #eaf0ff 70%, #f7f7fa 100%);
+  border: 2px solid #7e9fff;
+  z-index: 2;
+}
+.statValue {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: #7e9fff;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.3rem;
+  transition: color 0.18s;
+}
+.statSuffix {
+  font-size: 1.6rem;
+  color: #fbc2eb;
+  font-weight: 700;
+  margin-left: 0.15em;
+}
+.statLabel {
+  font-size: 1.15rem;
+  color: #5d2e8c;
+  opacity: 0.92;
+  margin-top: 0.6rem;
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  .statsGrid {
+    gap: 1.2rem;
+  }
+  .statCard {
+    padding: 1.1rem 0.7rem 1.3rem 0.7rem;
+  }
+  .statValue {
+    font-size: 1.5rem;
+  }
+  .statLabel {
+    font-size: 0.95rem;
+  }
+}

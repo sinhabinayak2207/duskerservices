@@ -1,0 +1,124 @@
+/* TestimonialsCarousel.module.css - Animated, interactive testimonials carousel for Dusker homepage */
+.testimonialsSection {
+  padding: 5rem 0 3rem 0;
+  background: #f7f7fa;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.sectionTitle {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 3.2rem;
+  background: linear-gradient(90deg, #7e9fff 0%, #fbc2eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.carouselWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+.arrowBtn {
+  background: none;
+  border: none;
+  font-size: 2.2rem;
+  color: #7e9fff;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+  padding: 0 1rem;
+}
+.arrowBtn:hover {
+  color: #fbc2eb;
+  transform: scale(1.2);
+}
+.testimonialCard {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(126,159,255,0.07);
+  padding: 2.2rem 2.5rem;
+  min-width: 320px;
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  transition: box-shadow 0.18s, transform 0.18s;
+  opacity: 0.96;
+  animation: fadeInCard 0.5s cubic-bezier(.77,0,.18,1);
+}
+@keyframes fadeInCard {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 0.96; transform: translateY(0) scale(1); }
+}
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(126,159,255,0.09);
+}
+.testimonialText {
+  flex: 1;
+  text-align: left;
+}
+.quote {
+  font-size: 1.13rem;
+  color: #232344;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+.clientInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.clientName {
+  font-weight: 700;
+  color: #7e9fff;
+  font-size: 1.08rem;
+}
+.clientCompany {
+  color: #5d2e8c;
+  font-size: 0.98rem;
+  opacity: 0.8;
+}
+.dots {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+.dot, .activeDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #eaf0ff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.activeDot {
+  background: linear-gradient(90deg, #7e9fff 0%, #fbc2eb 100%);
+  transform: scale(1.18);
+}
+@media (max-width: 700px) {
+  .testimonialCard {
+    flex-direction: column;
+    min-width: 220px;
+    max-width: 95vw;
+    padding: 1.2rem 0.7rem;
+    gap: 1.1rem;
+  }
+  .carouselWrap {
+    gap: 0.5rem;
+  }
+  .avatar {
+    width: 54px;
+    height: 54px;
+  }
+}
