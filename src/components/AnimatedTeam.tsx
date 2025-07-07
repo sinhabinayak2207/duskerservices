@@ -6,21 +6,21 @@ const team = [
  
   {
     name: 'Raj Shrivastava',
-    role: 'CEO',
+    role: 'Chief Executive Officer',
     img: '/images/raj_shrivastava.jpg',
     bio: 'Strategic business development professional with a talent for building partnerships and expanding market reach.'
   },
   {
     name: 'Ashish Kar',
-    role: 'CTO',
+    role: 'Chief Technology Officer',
     img: '/images/ashish_kar.jpg',
     bio: 'Visionary AI entrepreneur with expertise in machine learning systems and business strategy.'
   },
   {
     name: 'Tejaswi Sinha',
-    role: 'COO',
+    role: 'Chief Marketing Officer',
     img: '/images/tejaswi_sinha.jpg',
-    bio: 'Client-focused business developer with expertise in AI solution consulting and relationship management.'
+    bio: 'Strategic marketing leader with expertise in AI-driven growth, brand positioning, and customer-centric innovation..'
   },
 ];
 

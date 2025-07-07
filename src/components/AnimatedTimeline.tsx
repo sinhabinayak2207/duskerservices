@@ -5,7 +5,7 @@ const timeline = [
   {
     year: '2024',
     title: 'Founded',
-    desc: ''
+    desc: 'Dusker launches with a mission to make AI training accessible and scalable for all industries.'
   },
 
   {

@@ -171,13 +171,14 @@ export default function Navbar() {
             transition={{ duration: 0.5 }}
           >
             <Image 
-              src="/images/duskerlogo.jpg"
+              src="/duskerlogonew.jpg"
               alt="Dusker Logo"
               width={50}
               height={40}
               className={styles.logoImage}
               priority
             />
+            <span style={{ fontSize: '24px' }}>Dusker AI</span>
           </motion.div>
         </Link>
         <div className={styles.desktopMenu}>
@@ -316,13 +317,13 @@ export default function Navbar() {
             <Link href="/" className={styles.logoLink} onClick={() => setMenuOpen(false)}>
               <div className={styles.logo}>
                 <Image 
-                  src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1888&auto=format&fit=crop"
+                  src="/duskerlogonew.jpg"
                   alt="Dusker Logo"
                   width={40}
                   height={40}
                   className={styles.logoImage}
                 />
-                <span className={styles.logoText}>DUSKER</span>
+                <span style={{ fontSize: '24px' }}>Dusker AI</span>
               </div>
             </Link>
             <button

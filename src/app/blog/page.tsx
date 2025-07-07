@@ -5,7 +5,7 @@ export default function BlogPage() {
   return (
     <main style={{padding: '2.5rem 0', maxWidth: '900px', margin: '0 auto'}}>
       <h1 style={{fontSize: '2.5rem', fontWeight: 900, color: '#5d2e8c', marginBottom: '1.5rem'}}>Dusker Blog</h1>
-      <p style={{fontSize: '1.15rem', color: '#000000', marginBottom: '1.2rem'}}>
+      <p style={{fontSize: '1.15rem', color: '#FFFFFF', marginBottom: '1.2rem'}}>
         Insights, stories, and updates from the Dusker team. Stay tuned for the latest in AI, product news, and company culture!
       </p>
       <div style={{display:'flex',flexDirection:'column',gap:'2.5rem',marginTop:'2.5rem'}}>

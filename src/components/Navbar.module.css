@@ -73,18 +73,18 @@
 /* Add more styles for multi-level dropdowns, light hover, etc. */
 .navbar {
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  background: #000000;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-  color: #232344;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+  color: #ffffff;
   padding: 0 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
   font-family: 'Inter', sans-serif;
   transition: all 0.3s cubic-bezier(.77,0,.18,1);
-  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 .logoNav {
   display: flex;
@@ -135,9 +135,11 @@
   font-weight: 700;
   cursor: pointer;
   transition: color 0.2s;
+  color: #ffffff;
 }
 .productsLabel:hover {
-  color: #5d2e8c;
+  color: #ffffff;
+  opacity: 0.8;
 }
 .dropdownContent {
   display: none;
@@ -145,11 +147,11 @@
   top: 2.5rem;
   left: 50%;
   transform: translateX(-50%) scale(0.97) translateY(-10px);
-  background: #fff;
+  background: #000000;
   border-radius: 18px;
   min-width: 900px;
-  box-shadow: 0 8px 32px rgba(79, 70, 229, 0.15), 0 1.5px 8px rgba(0,0,0,0.04);
-  border: 1px solid rgba(79, 70, 229, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 1.5px 8px rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255, 0.1);
   animation: dropdownReveal 0.33s cubic-bezier(.77,0,.18,1);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -176,15 +178,16 @@
   padding: 0.6rem 1.2rem;
   border-radius: 14px;
   transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  color: #ffffff;
 }
 .productsLabel:hover, .dropdown:focus-within .productsLabel {
-  background: linear-gradient(90deg, #eaf0ff 0%, #fbc2eb 100%);
-  color: #5d2e8c;
-  box-shadow: 0 2px 8px rgba(126,159,255,0.09);
+  background: rgba(255,255,255,0.1);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.1);
 }
 .dropdownItem {
   padding: 0.75rem 1rem;
-  color: #232344;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -197,9 +200,9 @@
 }
 
 .dropdownItem:hover {
-  background: linear-gradient(135deg, rgba(79, 70, 229, 0.05) 0%, rgba(124, 58, 237, 0.08) 100%);
+  background: rgba(255, 255, 255, 0.1);
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(79, 70, 229, 0.1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
 }
 
 .dropdownItemIcon {
@@ -237,16 +240,16 @@
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 0.5rem;
-  color: #232344;
+  color: #ffffff;
 }
 
 .dropdownItemDescription {
   font-size: 0.85rem;
-  color: #666;
+  color: #cccccc;
   line-height: 1.5;
 }
 .navLink {
-  color: #232344;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -255,8 +258,8 @@
   transition: background 0.2s, color 0.2s;
 }
 .navLink:hover {
-  background: #e8e8f8;
-  color: #5d2e8c;
+  background: rgba(255,255,255,0.1);
+  color: #ffffff;
 }
 .hamburger {
   display: none;

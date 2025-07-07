@@ -33,9 +33,9 @@ export default function ProductComparison({
   const [selectedPlan, setSelectedPlan] = useState<'basic' | 'pro' | 'enterprise'>('pro');
   
   const plans = [
-    { id: 'basic', name: 'Basic', price: '₹499', period: '/month' },
-    { id: 'pro', name: 'Professional', price: '₹999', period: '/month' },
-    { id: 'enterprise', name: 'Enterprise', price: 'Custom', period: '' },
+    { id: 'basic', name: 'Basic' },
+    { id: 'pro', name: 'Professional' },
+    { id: 'enterprise', name: 'Enterprise' },
   ];
 
   return (
@@ -73,10 +73,7 @@ export default function ProductComparison({
                 transition={{ duration: 0.2 }}
               >
                 <span className={styles.planName}>{plan.name}</span>
-                <div className={styles.planPricing}>
-                  <span className={styles.planPrice}>{plan.price}</span>
-                  <span className={styles.planPeriod}>{plan.period}</span>
-                </div>
+
                 {selectedPlan === plan.id && (
                   <motion.div 
                     className={styles.activePlanIndicator}
