@@ -7,7 +7,7 @@ export default function ContactPage() {
     <main style={{padding: '2.5rem 0', maxWidth: '900px', margin: '0 auto'}}>
       <h1 style={{fontSize: '2.5rem', fontWeight: 900, color: '#5d2e8c', marginBottom: '1.5rem'}}>Contact Dusker</h1>
       <p style={{fontSize: '1.15rem', color: '#ffffff', marginBottom: '1.2rem'}}>
-        We’d love to hear from you! Fill out the form below or email us at <a href="mailto:hello@dusker.com" style={{color:'#5d2e8c'}}>hello@dusker.com</a>.
+        We’d love to hear from you! Fill out the form below or email us at <a href="mailto:info@duskerservices.in" style={{color:'#5d2e8c'}}>info@duskerservices.in</a>.
       </p>
       {submitted ? (
         <div style={{color:'#5d2e8c',fontWeight:700,fontSize:'1.2rem',margin:'2rem 0'}}>Thank you for reaching out! We’ll get back to you soon.</div>
@@ -21,7 +21,7 @@ export default function ContactPage() {
         <button type="submit" style={{background:'linear-gradient(90deg,#7e9fff 0%,#fbc2eb 100%)',color:'#fff',fontWeight:700,padding:'0.9rem 2.2rem',border:'none',borderRadius:'10px',fontSize:'1.12rem',cursor:'pointer',marginTop:'0.7rem'}}>Send Message</button>
       </form>
       )}
-      <div style={{marginTop:'2.5rem',fontSize:'1.03rem',color:'#ffffff'}}>Or email us directly at <a href="mailto:hello@dusker.com" style={{color:'#5d2e8c'}}>hello@dusker.com</a></div>
+      <div style={{marginTop:'2.5rem',fontSize:'1.03rem',color:'#ffffff'}}>Or email us directly at <a href="mailto:info@duskerservices.in" style={{color:'#5d2e8c'}}>info@duskerservices.in</a></div>
     </main>
   );
 }

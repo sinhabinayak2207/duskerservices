@@ -88,7 +88,7 @@ export default function AboutPage() {
             <span className={styles.statLabel}>Team Members</span>
           </div>
           <div className={styles.statCard}>
-            <span className={styles.statValue}>500+</span>
+            <span className={styles.statValue}>6+</span>
             <span className={styles.statLabel}>Enterprise Clients</span>
           </div>
         </motion.div>
@@ -216,7 +216,7 @@ export default function AboutPage() {
               className={styles.teamAvatar} 
             />
             <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Raj Shrivastava</h3>
-            <p className={styles.teamRole}>CEO & Founder</p>
+            <p className={styles.teamRole}>CEO </p>
             <p className={styles.teamBio}>Strategic business development professional with a talent for building partnerships and expanding market reach for AI solutions.</p>
           </div>
           
@@ -227,7 +227,7 @@ export default function AboutPage() {
               className={styles.teamAvatar} 
             />
             <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Ashish Kar</h3>
-            <p className={styles.teamRole}>CEO & Co-Founder</p>
+            <p className={styles.teamRole}>CTO</p>
             <p className={styles.teamBio}>Visionary AI entrepreneur with expertise in machine learning systems and business strategy. Leading Dusker's mission to revolutionize AI training and deployment.</p>
           </div>
           
@@ -238,7 +238,7 @@ export default function AboutPage() {
               className={styles.teamAvatar} 
             />
             <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Tejaswi Sinha</h3>
-            <p className={styles.teamRole}>CEO & Co-Founder</p>
+            <p className={styles.teamRole}>COO</p>
             <p className={styles.teamBio}>Client-focused business developer with expertise in AI solution consulting and relationship management across enterprise sectors.</p>
           </div>
         </motion.div>
@@ -257,9 +257,8 @@ export default function AboutPage() {
           Ready to transform your AI capabilities? We'd love to hear from you.
         </motion.p>
         <motion.div variants={fadeIn} style={{ color: '#333333' }}>
-          <p>Email: <a href="mailto:ashishkar543@gmail.com" className={styles.contactLink}>ashishkar543@gmail.com</a></p>
-          <p>Email: <a href="mailto:rajranjansrivastav@gmail.com" className={styles.contactLink}>rajranjansrivastav@gmail.com</a></p>
-          <p>Email: <a href="mailto:sinha.vinayak2207@gmail.com" className={styles.contactLink}>sinha.vinayak2207@gmail.com</a></p>
+          <p>Email: <a href="mailto:info@duskerservices.in" className={styles.contactLink}>info@duskerservices.in</a></p>
+    
           <p>Phone: <a href="tel:+916201647596" className={styles.contactLink}>+91 62016 47596</a></p>
           <p>Headquarters: Jaipur, India</p>
         </motion.div>
@@ -267,7 +266,7 @@ export default function AboutPage() {
         <motion.div variants={fadeIn} className={styles.socialLinks}>
           <a href="#" className={styles.socialIcon} aria-label="LinkedIn">in</a>
           <a href="#" className={styles.socialIcon} aria-label="Twitter">𝕏</a>
-          <a href="#" className={styles.socialIcon} aria-label="GitHub">GH</a>
+         
           <a href="#" className={styles.socialIcon} aria-label="YouTube">▶</a>
         </motion.div>
       </motion.section>

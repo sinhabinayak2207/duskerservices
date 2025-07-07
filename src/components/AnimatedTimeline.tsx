@@ -4,8 +4,8 @@ import styles from './AnimatedTimeline.module.css';
 const timeline = [
   {
     year: '2024',
-    title: 'Dusker Founded',
-    desc: 'Dusker launches with a mission to make AI training accessible and scalable for all industries.'
+    title: 'Founded',
+    desc: ''
   },
 
   {

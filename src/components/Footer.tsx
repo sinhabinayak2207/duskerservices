@@ -40,15 +40,7 @@ export default function Footer() {
                 className={styles.socialIcon}
               />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
-              <Image 
-                src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=1888&auto=format&fit=crop"
-                alt="GitHub"
-                width={24}
-                height={24}
-                className={styles.socialIcon}
-              />
-            </a>
+           
           </div>
         </div>
         <div className={styles.linksCol}>

@@ -1,7 +1,7 @@
 import HomeHero from "../components/HomeHero";
 import AnimatedProductCards from "../components/AnimatedProductCards";
 import AnimatedTimeline from "../components/AnimatedTimeline";
-import TestimonialsCarousel from "../components/TestimonialsCarousel";
+// TestimonialsCarousel component has been removed
 import AnimatedTeam from "../components/AnimatedTeam";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       <HomeHero />
       <AnimatedProductCards />
       <AnimatedTimeline />
-      <TestimonialsCarousel />
+      {/* TestimonialsCarousel component has been removed */}
       <AnimatedTeam />
       {/* Newsletter Signup Section */}
       {/* FAQ Section */}
