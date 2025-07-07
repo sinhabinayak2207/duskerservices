@@ -91,10 +91,6 @@ export default function AboutPage() {
             <span className={styles.statValue}>500+</span>
             <span className={styles.statLabel}>Enterprise Clients</span>
           </div>
-          <div className={styles.statCard}>
-            <span className={styles.statValue}>15+</span>
-            <span className={styles.statLabel}>Countries</span>
-          </div>
         </motion.div>
       </motion.section>
 
@@ -212,16 +208,6 @@ export default function AboutPage() {
         </motion.p>
         
         <motion.div variants={fadeIn} className={styles.teamGrid}>
-          <div className={styles.teamMember}>
-            <img 
-              src="/images/ashish_kar.jpg" 
-              alt="Ashish Kar" 
-              className={styles.teamAvatar} 
-            />
-            <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Ashish Kar</h3>
-            <p className={styles.teamRole}>CEO & Founder</p>
-            <p className={styles.teamBio}>Visionary AI entrepreneur with expertise in machine learning systems and business strategy. Leading Dusker's mission to revolutionize AI training and deployment.</p>
-          </div>
           
           <div className={styles.teamMember}>
             <img 
@@ -230,8 +216,19 @@ export default function AboutPage() {
               className={styles.teamAvatar} 
             />
             <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Raj Shrivastava</h3>
-            <p className={styles.teamRole}>Business Development Executive</p>
+            <p className={styles.teamRole}>CEO & Founder</p>
             <p className={styles.teamBio}>Strategic business development professional with a talent for building partnerships and expanding market reach for AI solutions.</p>
+          </div>
+          
+          <div className={styles.teamMember}>
+            <img 
+              src="/images/ashish_kar.jpg" 
+              alt="Ashish Kar" 
+              className={styles.teamAvatar} 
+            />
+            <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Ashish Kar</h3>
+            <p className={styles.teamRole}>CEO & Co-Founder</p>
+            <p className={styles.teamBio}>Visionary AI entrepreneur with expertise in machine learning systems and business strategy. Leading Dusker's mission to revolutionize AI training and deployment.</p>
           </div>
           
           <div className={styles.teamMember}>
@@ -241,7 +238,7 @@ export default function AboutPage() {
               className={styles.teamAvatar} 
             />
             <h3 className={styles.teamName} style={{ color: '#a8c7fa' }}>Tejaswi Sinha</h3>
-            <p className={styles.teamRole}>Business Development Executive</p>
+            <p className={styles.teamRole}>CEO & Co-Founder</p>
             <p className={styles.teamBio}>Client-focused business developer with expertise in AI solution consulting and relationship management across enterprise sectors.</p>
           </div>
         </motion.div>

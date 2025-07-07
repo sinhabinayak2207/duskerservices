@@ -331,6 +331,13 @@
   text-decoration: underline;
 }
 
+.ctaText {
+  color: #a5a5f8;
+  font-weight: 600;
+  cursor: default;
+  text-decoration: underline;
+}
+
 .backgroundElements {
   position: absolute;
   top: 0;

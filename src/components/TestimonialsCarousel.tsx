@@ -4,10 +4,10 @@ import styles from './TestimonialsCarousel.module.css';
 
 const testimonials = [
   {
-    name: 'Alex Johnson',
+    name: 'Rahul kumar',
     company: 'AI Labs',
     text: 'Dusker transformed our data pipeline and accelerated our AI deployment by months. Their platform is intuitive and the support is world-class.',
-    avatar: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=facearea&w=400&h=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=400&q=80',
   },
   {
     name: 'Priya Singh',
@@ -16,16 +16,16 @@ const testimonials = [
     avatar: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=400&q=80',
   },
   {
-    name: 'Michael Lee',
+    name: 'Mukul',
     company: 'MobilityX',
     text: 'Dusker’s automotive data suite made our perception stack robust. The animated dashboard is a joy to use!',
-    avatar: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=facearea&w=400&h=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=400&q=80',
   },
   {
-    name: 'Sara Müller',
+    name: 'sahil',
     company: 'GovAI',
     text: 'Security, compliance, and performance—all in one platform. Dusker is our trusted partner for public sector AI.',
-    avatar: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=facearea&w=400&h=400&q=80',
+    avatar: 'https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=400&q=80',
   },
 ];
 

@@ -206,7 +206,7 @@ export default function ProductComparison({
               </motion.button>
               
               <p className={styles.ctaDescription}>
-                Not sure which plan is right for you? <a href="#" className={styles.ctaLink}>Contact our sales team</a> for a personalized demo.
+                Not sure which plan is right for you? <span className={styles.ctaText}>Contact our sales team</span> for a personalized demo.
               </p>
             </div>
           )}
@@ -228,7 +228,7 @@ export default function ProductComparison({
               </motion.button>
               
               <p className={styles.ctaDescription}>
-                Want to see a detailed comparison? <a href="#" className={styles.ctaLink}>Request our full feature comparison</a>.
+                Want to see a detailed comparison? <span className={styles.ctaText}>Request our full feature comparison</span>.
               </p>
             </div>
           )}

@@ -66,19 +66,14 @@ export default function Footer() {
         </div>
         <div className={styles.linksCol}>
           <div className={styles.linksTitle}>Solutions</div>
-          <Link href="/solutions/ai-pipeline" className={styles.link}>AI Pipeline</Link>
-          <Link href="/solutions/data-labeling" className={styles.link}>Data Labeling</Link>
-          <Link href="/solutions/model-eval" className={styles.link}>Model Evaluation</Link>
-          <Link href="/solutions/automotive" className={styles.link}>Automotive AI</Link>
-          <Link href="/solutions/public-sector" className={styles.link}>Public Sector</Link>
+          <Link href="/solutions/training-pipelines" className={styles.link}>AI Pipeline</Link>
+          <Link href="/solutions/data-annotation" className={styles.link}>Data Labeling</Link>
+          <Link href="/solutions/model-evaluation" className={styles.link}>Model Evaluation</Link>
+          <Link href="/solutions/deployment" className={styles.link}>Deployment</Link>
         </div>
         <div className={styles.linksCol}>
           <div className={styles.linksTitle}>Resources</div>
-          <Link href="/resources/blog" className={styles.link}>Blog</Link>
-          <Link href="/resources/docs" className={styles.link}>Docs</Link>
-          <Link href="/resources/faq" className={styles.link}>FAQ</Link>
-          <Link href="/resources/careers" className={styles.link}>Careers</Link>
-          <Link href="/resources/contact" className={styles.link}>Contact</Link>
+          <Link href="/contact" className={styles.link}>Contact</Link>
         </div>
         <div className={styles.newsletterCol}>
           <div className={styles.newsletterTitle}>Subscribe to our Newsletter</div>
@@ -112,6 +107,7 @@ export default function Footer() {
           <span>&copy; {new Date().getFullYear()} Dusker. All rights reserved.</span>
         </div>
         <div className={styles.footerBottomRight}>
+          <Link href="/contact" className={styles.footerLink}>Contact</Link>
           <Link href="/privacy" className={styles.footerLink}>Privacy Policy</Link>
           <Link href="/terms" className={styles.footerLink}>Terms of Service</Link>
           <Link href="/cookies" className={styles.footerLink}>Cookie Policy</Link>

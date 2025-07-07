@@ -3,12 +3,7 @@ import React from 'react';
 import styles from './AnimatedTeam.module.css';
 
 const team = [
-  {
-    name: 'Ashish Kar',
-    role: 'CEO & Founder',
-    img: '/images/ashish_kar.jpg',
-    bio: 'Visionary AI entrepreneur with expertise in machine learning systems and business strategy.'
-  },
+ 
   {
     name: 'Raj Shrivastava',
     role: 'Business Development Executive',
@@ -16,8 +11,14 @@ const team = [
     bio: 'Strategic business development professional with a talent for building partnerships and expanding market reach.'
   },
   {
+    name: 'Ashish Kar',
+    role: 'CEO & Co-Founder',
+    img: '/images/ashish_kar.jpg',
+    bio: 'Visionary AI entrepreneur with expertise in machine learning systems and business strategy.'
+  },
+  {
     name: 'Tejaswi Sinha',
-    role: 'Business Development Executive',
+    role: 'CEO & Co-Founder',
     img: '/images/tejaswi_sinha.jpg',
     bio: 'Client-focused business developer with expertise in AI solution consulting and relationship management.'
   },
