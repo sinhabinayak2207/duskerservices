@@ -4,7 +4,7 @@ import ImageCarousel from '@/components/products/ImageCarousel';
 import ProductHero from '@/components/products/ProductHero';
 import ProductFeatures from '@/components/products/ProductFeatures';
 import ProductBenefits from '@/components/products/ProductBenefits';
-import ProductTestimonials from '@/components/products/ProductTestimonials';
+// Testimonials removed
 import ProductComparison from '@/components/products/ProductComparison';
 import ProductFAQ from '@/components/products/ProductFAQ';
 import ProductUseCases from '@/components/products/ProductUseCases';
@@ -489,11 +489,7 @@ export default function ScaleDataEnginePage() {
         subtitle={benefitsContent.subtitle}
       />
       <ProductUseCases {...useCasesContent} />
-      <ProductTestimonials 
-        testimonials={testimonialsContent.testimonials} 
-        title={testimonialsContent.title} 
-        subtitle={testimonialsContent.subtitle}
-      />
+      {/* Testimonials section removed */}
       <ProductFAQ {...faqContent} />
       <ProductRelated {...relatedProductsContent} />
       <ProductCTA {...ctaContent} />

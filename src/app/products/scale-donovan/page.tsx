@@ -3,7 +3,7 @@ import React from 'react';
 import ImageCarousel from '@/components/products/ImageCarousel';
 import ProductFeatures from '@/components/products/ProductFeatures';
 import ProductBenefits from '@/components/products/ProductBenefits';
-import ProductTestimonials from '@/components/products/ProductTestimonials';
+// Testimonials removed
 import ProductComparison from '@/components/products/ProductComparison';
 import ProductFAQ from '@/components/products/ProductFAQ';
 import ProductUseCases from '@/components/products/ProductUseCases';
@@ -406,7 +406,7 @@ export default function ScaleDonovanPage() {
       <ProductFeatures {...featuresContent} />
       <ProductBenefits {...benefitsContent} />
       <ProductUseCases {...useCasesContent} />
-      <ProductTestimonials {...testimonialsContent} />
+      {/* Testimonials section removed */}
       <ProductComparison {...comparisonContent} />
       <ProductFAQ {...faqContent} />
       <ProductRelated {...relatedProductsContent} />

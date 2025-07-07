@@ -3,7 +3,7 @@ import React from 'react';
 import ImageCarousel from '@/components/products/ImageCarousel';
 import ProductFeatures from '@/components/products/ProductFeatures';
 import ProductBenefits from '@/components/products/ProductBenefits';
-import ProductTestimonials from '@/components/products/ProductTestimonials';
+
 import ProductComparison from '@/components/products/ProductComparison';
 import ProductFAQ from '@/components/products/ProductFAQ';
 import ProductUseCases from '@/components/products/ProductUseCases';
@@ -141,43 +141,7 @@ export default function ForAutomotivePage() {
     ]
   };
 
-  // Testimonials section content
-  const testimonialsContent = {
-    title: "Trusted by Automotive Leaders",
-    subtitle: "TESTIMONIALS",
-    testimonials: [
-      {
-        id: 1,
-        name: "Dr. Michael Chen",
-        role: "Director of Autonomous Systems",
-        company: "AutoTech Innovations",
-        content: "Scale's automotive solutions have accelerated our autonomous vehicle development by providing high-quality data and efficient annotation workflows.",
-        avatar: "/images/testimonials/avatar10.jpg",
-        rating: 5,
-        companyLogo: "/images/testimonials/logo10.png"
-      },
-      {
-        id: 2,
-        name: "Sarah Johnson",
-        role: "VP of Engineering",
-        company: "Future Mobility",
-        content: "The edge case discovery capabilities have been invaluable for improving the safety and reliability of our ADAS systems.",
-        avatar: "/images/testimonials/avatar11.jpg",
-        rating: 5,
-        companyLogo: "/images/testimonials/logo11.png"
-      },
-      {
-        id: 3,
-        name: "James Rodriguez",
-        role: "Chief Technology Officer",
-        company: "AutoDrive Systems",
-        content: "Scale's HD mapping solution has provided us with the centimeter-level accuracy we need for our autonomous navigation systems.",
-        avatar: "/images/testimonials/avatar12.jpg",
-        rating: 4,
-        companyLogo: "/images/testimonials/logo12.png"
-      }
-    ]
-  };
+  
 
   // Comparison section content
   const comparisonContent = {
@@ -407,7 +371,7 @@ export default function ForAutomotivePage() {
       <ProductFeatures {...featuresContent} />
       <ProductBenefits {...benefitsContent} />
       <ProductUseCases {...useCasesContent} />
-      <ProductTestimonials {...testimonialsContent} />
+      {/* Testimonials section removed */}
       <ProductComparison {...comparisonContent} />
       <ProductFAQ {...faqContent} />
       <ProductRelated {...relatedProductsContent} />

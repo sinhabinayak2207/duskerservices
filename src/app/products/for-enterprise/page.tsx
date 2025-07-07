@@ -2,7 +2,7 @@
 import React from 'react';
 import ProductFeatures from '@/components/products/ProductFeatures';
 import ProductBenefits from '@/components/products/ProductBenefits';
-import ProductTestimonials from '@/components/products/ProductTestimonials';
+
 import ProductComparison from '@/components/products/ProductComparison';
 import ProductFAQ from '@/components/products/ProductFAQ';
 import ProductUseCases from '@/components/products/ProductUseCases';
@@ -184,39 +184,8 @@ export default function ForEnterprisePage() {
   };
 
   // Testimonials section content
-  const testimonialsContent = {
-    title: "Enterprise Success Stories",
-    subtitle: "TESTIMONIALS",
-    testimonials: [
-      {
-        id: 1,
-        name: "Sarah Johnson",
-        content: "Scale's enterprise solutions have transformed our operations, reducing processing time by 40% and enabling our teams to focus on strategic initiatives rather than routine tasks.",
-        role: "Chief Digital Officer",
-        company: "Global Manufacturing Corp",
-        avatar: "/images/testimonials/sarah-johnson.jpg",
-        rating: 5
-      },
-      {
-        id: 2,
-        name: "Michael Chen",
-        content: "The predictive analytics capabilities provided by Scale have given us unprecedented visibility into market trends and customer behavior, directly contributing to a 28% increase in our conversion rates.",
-        role: "VP of Analytics",
-        company: "Retail Innovations Inc",
-        avatar: "/images/testimonials/michael-chen.jpg",
-        rating: 5
-      },
-      {
-        id: 3,
-        name: "Elizabeth Rodriguez",
-        content: "Implementing Scale's AI solutions across our supply chain has significantly improved our inventory management and demand forecasting accuracy, resulting in a 22% reduction in carrying costs.",
-        role: "Supply Chain Director",
-        company: "Consumer Goods International",
-        avatar: "/images/testimonials/elizabeth-rodriguez.jpg",
-        rating: 5
-      }
-    ]
-  };
+  
+  
 
   // Comparison section content
   const comparisonContent = {
@@ -379,7 +348,7 @@ export default function ForEnterprisePage() {
       <ProductFeatures {...featuresContent} />
       <ProductBenefits {...benefitsContent} />
       <ProductUseCases {...useCasesContent} />
-      <ProductTestimonials {...testimonialsContent} />
+      {/* Testimonials section removed */}
       <ProductComparison {...comparisonContent} />
       <ProductFAQ {...faqContent} />
       <ProductRelated {...relatedProductsContent} />

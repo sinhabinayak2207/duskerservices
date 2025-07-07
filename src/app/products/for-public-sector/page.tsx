@@ -2,7 +2,7 @@
 import React from 'react';
 import ProductFeatures from '@/components/products/ProductFeatures';
 import ProductBenefits from '@/components/products/ProductBenefits';
-import ProductTestimonials from '@/components/products/ProductTestimonials';
+// Testimonials removed
 import ProductComparison from '@/components/products/ProductComparison';
 import ProductFAQ from '@/components/products/ProductFAQ';
 import ProductUseCases from '@/components/products/ProductUseCases';
@@ -359,7 +359,7 @@ export default function ForPublicSectorPage() {
       <ProductFeatures {...featuresContent} />
       <ProductBenefits {...benefitsContent} />
       <ProductUseCases {...useCasesContent} />
-      <ProductTestimonials {...testimonialsContent} />
+      {/* Testimonials section removed */}
       <ProductComparison {...comparisonContent} />
       <ProductFAQ {...faqContent} />
       <ProductRelated {...relatedProductsContent} />
