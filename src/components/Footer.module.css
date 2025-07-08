@@ -1,8 +1,8 @@
 /* Footer.module.css - Dusker website footer styles */
 .footer {
-  background: linear-gradient(90deg, #f8f9ff 0%, #f0f4ff 100%);
+  background: #000000;
   padding: 4rem 2rem 2rem 2rem;
-  color: #232344;
+  color: #ffffff;
   font-family: 'Inter', sans-serif;
   border-top: 1px solid rgba(79, 70, 229, 0.1);
   margin-top: 6rem;
@@ -65,13 +65,13 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(79, 70, 229, 0.1);
+  background: rgba(124, 58, 237, 0.3);
   transition: all 0.3s ease;
 }
 
 .socialLink:hover {
   transform: translateY(-3px);
-  background: rgba(79, 70, 229, 0.2);
+  background: rgba(124, 58, 237, 0.5);
 }
 
 .socialIcon {
@@ -82,15 +82,11 @@
   font-weight: 900;
   font-size: 2rem;
   letter-spacing: 0.1em;
-  background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  color: #ffffff;
 }
 .tagline {
   font-size: 1.1rem;
-  color: #4b5563;
+  color: #ffffff;
   font-weight: 500;
   max-width: 260px;
   line-height: 1.5;
@@ -106,7 +102,7 @@
 .linksTitle {
   font-weight: 700;
   font-size: 1.1rem;
-  color: #4f46e5;
+  color: #7c3aed;
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -123,7 +119,7 @@
   border-radius: 1px;
 }
 .link {
-  color: #4b5563;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.2s ease;
@@ -144,7 +140,7 @@
 }
 
 .link:hover {
-  color: #4f46e5;
+  color: #7c3aed;
   transform: translateX(3px);
 }
 
@@ -158,23 +154,23 @@
   gap: 1rem;
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(30, 30, 30, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 1.5rem;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(79, 70, 229, 0.1);
-  border: 1px solid rgba(79, 70, 229, 0.1);
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.2);
+  border: 1px solid rgba(124, 58, 237, 0.2);
 }
 .newsletterTitle {
   font-weight: 700;
   font-size: 1.2rem;
-  color: #4f46e5;
+  color: #7c3aed;
   margin-bottom: 0.3rem;
 }
 
 .newsletterDescription {
-  color: #4b5563;
+  color: #ffffff;
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
   line-height: 1.5;
@@ -241,9 +237,9 @@
   margin: 0 auto;
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: 1px solid rgba(79, 70, 229, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -258,13 +254,13 @@
 }
 
 .footerLink {
-  color: #6b7280;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .footerLink:hover {
-  color: #4f46e5;
+  color: #7c3aed;
 }
 
 .footerText {
