@@ -18,7 +18,7 @@ export default function Footer() {
               height={48}
               className={styles.footerLogo}
             />
-            <div className={styles.logo}>DUSKER</div>
+            <span style={{ fontSize: '24px' }}>Dusker AI</span>
           </div>
           <div className={styles.tagline}>Next-level AI Training & Evaluation</div>
           <div className={styles.socialLinks}>
@@ -90,7 +90,7 @@ export default function Footer() {
         transition={{ delay: 0.3, duration: 0.5 }}
       >
         <div className={styles.footerBottomLeft}>
-          <span>&copy; {new Date().getFullYear()} Dusker. All rights reserved.</span>
+          <span>&copy; 2025 Dusker Education Services. All rights reserved.</span>
         </div>
         <div className={styles.footerBottomRight}>
           <Link href="/contact" className={styles.footerLink}>Contact</Link>

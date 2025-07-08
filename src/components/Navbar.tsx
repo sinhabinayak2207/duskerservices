@@ -163,7 +163,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logoNav}>
-        <Link href="/" className={styles.logoLink}>
+        <Link href="/" className={styles.logoLink} style={{ marginRight: '2.5rem' }}>
           <motion.div 
             className={styles.logo}
             initial={{ opacity: 0, y: -20 }}

@@ -24,7 +24,7 @@ export default function CareersPage() {
         <li>Competitive compensation & equity</li>
       </ul>
       <h2 style={{fontSize: '1.6rem', fontWeight: 700, color: '#7e9fff', margin: '2rem 0 1rem'}}>How to Apply</h2>
-      <p style={{color: '#ffffff'}}>Email your resume and a short intro to <a href="mailto:careers@dusker.com" style={{color:'#5d2e8c'}}>careers@dusker.com</a> — we look forward to meeting you!</p>
+      <p style={{color: '#ffffff'}}>Email your resume and a short intro to <a href="mailto:careers@dusker.in" style={{color:'#5d2e8c'}}>careers@dusker.in</a> — we look forward to meeting you!</p>
     </main>
   );
 }
