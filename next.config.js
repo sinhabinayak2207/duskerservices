@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.unsplash.com', 'github.com', 'raw.githubusercontent.com'],
     formats: ['image/avif', 'image/webp'],
   },
   // Disable ESLint during builds

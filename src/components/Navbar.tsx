@@ -171,7 +171,7 @@ export default function Navbar() {
             transition={{ duration: 0.5 }}
           >
             <Image 
-              src="/duskerlogonew.jpg"
+              src="https://github.com/sinhabinayak2207/duskerservices/blob/main/public/duskerlogonew.jpg?raw=true"
               alt="Dusker Logo"
               width={50}
               height={40}
@@ -317,7 +317,7 @@ export default function Navbar() {
             <Link href="/" className={styles.logoLink} onClick={() => setMenuOpen(false)}>
               <div className={styles.logo}>
                 <Image 
-                  src="/duskerlogonew.jpg"
+                  src="https://github.com/sinhabinayak2207/duskerservices/blob/main/public/duskerlogonew.jpg?raw=true"
                   alt="Dusker Logo"
                   width={40}
                   height={40}

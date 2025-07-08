@@ -12,7 +12,7 @@ export default function Footer() {
         <div className={styles.logoCol}>
           <div className={styles.logoWrapper}>
             <Image 
-              src="https://raw.githubusercontent.com/sinhabinayak2207/duskerservices/main/public/duskerlogonew.png"
+              src="https://github.com/sinhabinayak2207/duskerservices/blob/main/public/duskerlogonew.jpg?raw=true"
               alt="Dusker Logo"
               width={48}
               height={48}
