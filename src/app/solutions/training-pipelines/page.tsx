@@ -326,58 +326,6 @@ export default function TrainingPipelinesPage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className={styles.testimonials}>
-        <div className={styles.container}>
-          <motion.div 
-            className={styles.testimonialsContent}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={staggerContainer}
-          >
-            <motion.h2 variants={fadeIn} className={styles.sectionTitle}>
-              What Our Clients Say
-            </motion.h2>
-            
-            <div className={styles.testimonialGrid}>
-              <motion.div variants={fadeIn} className={styles.testimonialCard}>
-                <div className={styles.testimonialQuote}>
-                  "Dusker's AI Training Pipelines have transformed how we develop and deploy machine learning models. We've cut our development time in half while improving model performance."
-                </div>
-                <div className={styles.testimonialAuthor}>
-                  <img 
-                    src="https://randomuser.me/api/portraits/women/32.jpg" 
-                    alt="Sarah Chen" 
-                    className={styles.testimonialAvatar}
-                  />
-                  <div className={styles.testimonialInfo}>
-                    <h4>Sarah Chen</h4>
-                    <p>AI Director, TechForward</p>
-                  </div>
-                </div>
-              </motion.div>
-              
-              <motion.div variants={fadeIn} className={styles.testimonialCard}>
-                <div className={styles.testimonialQuote}>
-                  "The experiment tracking and hyperparameter optimization features have been game-changers for our research team. We can now iterate much faster and with better results."
-                </div>
-                <div className={styles.testimonialAuthor}>
-                  <img 
-                    src="https://randomuser.me/api/portraits/men/45.jpg" 
-                    alt="Michael Rodriguez" 
-                    className={styles.testimonialAvatar}
-                  />
-                  <div className={styles.testimonialInfo}>
-                    <h4>Michael Rodriguez</h4>
-                    <p>CTO, AI Innovations</p>
-                  </div>
-                </div>
-              </motion.div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className={styles.cta}>
