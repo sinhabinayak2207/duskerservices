@@ -163,24 +163,26 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logoNav}>
-        <Link href="/" className={styles.logoLink} style={{ marginRight: '2.5rem' }}>
-          <motion.div 
-            className={styles.logo}
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Image 
-              src="https://raw.githubusercontent.com/sinhabinayak2207/duskerservices/main/public/duskerlogonew.jpg"
-              alt="Dusker Logo"
-              width={50}
-              height={40}
-              className={styles.logoImage}
-              priority
-            />
-            <span style={{ fontSize: '24px' }}>Dusker AI</span>
-          </motion.div>
-        </Link>
+      <Link href="/" className={styles.logoLink} style={{ marginRight: '10rem' }}>
+  <motion.div 
+    className={styles.logo}
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+    style={{ display: 'flex', alignItems: 'center', gap: '8px' }} // <-- add this
+  >
+    <Image 
+      src="https://raw.githubusercontent.com/sinhabinayak2207/duskerservices/main/public/duskerlogonew.jpg"
+      alt="Dusker Logo"
+      width={50}
+      height={40}
+      className={styles.logoImage}
+      priority
+    />
+    <span style={{ fontSize: '24px', whiteSpace: 'nowrap' }}>Dusker AI</span> 
+  </motion.div>
+</Link>
+
         <div className={styles.desktopMenu}>
           <div
             className={styles.dropdown}
